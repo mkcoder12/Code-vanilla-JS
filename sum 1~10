@@ -1,0 +1,11 @@
+//Sum 1~10
+
+let a = 1
+let total = 0
+
+while( a < 11 ){
+  total = total + a;
+  a = a + 1;
+  }
+  
+console.log(total);  
