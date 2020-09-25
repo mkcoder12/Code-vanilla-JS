@@ -11,3 +11,17 @@ while (i < input) {
 
 
 //역방향
+let tree = "";
+let input = 5;
+let i = 0;
+while (input > 0) {
+    i = 0;
+    while (i < input)
+    {
+        tree = tree + "*";
+        i = i + 1;
+    }
+    console.log(tree);
+    input = input - 1; 
+    tree = "";
+}
