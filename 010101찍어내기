@@ -1,3 +1,4 @@
+<-------코드가 만든거------->
 let input = 7;
 let c = 0;
 let t = true;
@@ -20,3 +21,27 @@ while (true) {
     }
 }
 
+<--------------내가만든거---------->
+let i = 0;
+let input = 3;
+let a = 0;
+let b = 0;
+
+while (i < input) {
+
+    if (a === 0) {
+        console.log(0);
+        b = 1;
+        a = 1;
+    }
+
+    if (a === 1) {
+        if (b === 0) {
+        console.log(1);
+        a = 0;
+        b = 0;
+        }
+        b = 0;
+            }
+    i = i + 1;
+}
