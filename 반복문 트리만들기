@@ -1,0 +1,13 @@
+//정방향
+
+input = 10;
+let i = 0;
+let a = "*"
+while (i < input) {
+    console.log(a);
+    a = a + "*";
+    i = i + 1;
+}
+
+
+//역방향
